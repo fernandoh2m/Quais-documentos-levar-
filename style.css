@@ -1,0 +1,189 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body { background:url(images/pattern.gif) repeat; font-family: 'Abel', sans-serif; }
+
+header { width:980px; margin:auto; text-align:center; }
+
+.header-internas { width:980px; margin:auto; display:block; }
+
+header h1 { font-size:56px; color:#2c3943; font-family: 'Viga', sans-serif !important; text-shadow:2px 3px 0 #bcc7d0; text-align:center !important; width:980px; margin:0 auto; display:block; }
+
+.titulo-header { font-size:56px; color:#2c3943; font-family: 'Viga', sans-serif !important; text-shadow:2px 3px 0 #bcc7d0; text-align:center !important; width:980px; margin:0 auto; display:block; }
+
+.descricao { background:#fafde3; width:100%; border-top:1px dashed #999d7b; border-bottom:1px dashed #999d7b; float:left; padding:10px 0 10px 0; text-align:center; font-size:22px; color:#6e7154; line-height:26px; margin:10px 0 0 0;  }
+
+.wrap-menu .menu-home li { background:red; display:block; float:left; }
+
+.nav-home { clear:both; height:75px; }
+
+nav .menu-home { width:980px; margin:auto; clear:both; }
+
+.submenu { position:absolute; margin:-35px 0 0 10px; background:#8399ab; padding:10px 11px 05px 1px; -moz-border-radius: 22px !important; border-radius: 22px !important; border:1px solid #303e49; display:none; width:165px; }
+
+.submenu li { float:left; clear:both;}
+
+.submenu li a { margin:0 0 0 10px !important; -moz-border-radius: 8px !important; border-radius: 8px !important; background:#5e7487 !important; padding: 05px 0 05px 0 !important; font-size:16px !important; margin-bottom:05px !important; }
+
+.submenu li a:hover { background:#384754 !important; border:1px solid #000 !important; text-shadow:1px 1px 1px #28333c !important;  }
+
+.submenu { margin:-35px 0 0 10px; }
+
+nav .menu-home li { float:left; width:195px; } 
+
+nav .menu-home li a { float:left; background:url(images/bg-nav.jpg) repeat-x; -moz-border-radius: 15px; border-radius: 15px; padding:12px; border:1px solid #49545d; color:#d2dde7; text-decoration:none; margin:20px 10px 0 10px; font-size:18px; min-width:150px; text-align:center;text-shadow:1px 1px 1px #28333c;   }
+
+nav .menu-home li a:hover { background-position:0 -43px; border:solid 1px #b3752c; text-shadow:1px 2px 0 #794602; }
+
+footer { clear:both; width:980px; margin:auto;  } 
+
+footer p { text-align:center; font-size:16px;  line-height:22px; color:#2c3943; margin-top:15px; }
+
+.copyright { width:980px; margin:auto; text-align:center; }
+
+.footer-links { width:980px; margin:auto; text-align:center; height:0; }
+
+.footer-links a { text-decoration:none; color:#2c3943; } 
+
+.footer-links a:hover { text-decoration:underline; color:#2c3943; } 
+
+footer ul { width:245px; margin:0 auto; }
+
+footer ul li { float:left;}
+
+footer ul li a { color:#2c3943; text-decoration:none;  line-height:22px; }
+
+footer ul li a:hover  { text-decoration:underline; } 
+
+.direitos { font-size:12px;  }
+
+.logo { display:block; width:188px; height:247px; background:url(images/logo.png) no-repeat; margin:auto; margin-top:15px; margin-bottom:10px;  }
+
+.logo-internas { float:left; display:block; width:131px; height:160px; background:url(images/logo-interno.png) no-repeat; margin:auto; margin-top:30px; margin-bottom:20px;  }
+
+header h2 { color: #2C3943;float: left;font-family: 'Viga',sans-serif !important;font-size: 48px;margin: 80px 0 0 15px;text-shadow: 2px 3px 0 #BCC7D0;} }
+
+.header-internas  h1 { float:left; font-size:48px; margin:85px 0 0 15px; }
+
+.conteudo-internas { clear: both;color: #3F576B;font-size: 18px;font-weight: normal;margin: 0 auto 20px;width: 980px; }
+
+.titulo-internas { font-size:28px; color:#2c3943; padding-bottom:05px; text-shadow: 1px 2px 0 #BCC7D0;}
+
+.lista-documentos { padding:10px 0 10px 25px;  background: none repeat scroll 0 0 #FAFDE3; border: 1px dashed #999D7B; color: #6E7154; margin:15px 0 15px 0;}
+
+.line { width:100%; height:1px; border-bottom:1px solid #b5b5b5; display:block; margin-bottom:50px; }
+
+h4 { color:#2c3943; margin:10px 0 10px 0; }
+
+::selection {
+        background: #c66507; color:#fff; /* Safari */
+        }
+::-moz-selection {
+        background: #c66507; color:#fff; /* Firefox */
+}
+
+a { text-decoration:none; }
+
+.social { position:absolute;  }
+
+.twitter { float:left; }
+
+.face { float:left;}
+
+.lista-documentos a { text-decoration:underline; color:#ce6600; font-weight:bold; }
+
+.lista-documentos a:hover { text-decoration:none; }
+
+strong { text-decoration:underline; } 
